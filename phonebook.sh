@@ -13,9 +13,9 @@ if [ "$userAction" = "h" ]; then
 elif [ "$userAction" = "a" ]; then
 	read -p 'Filename/Personname: ' name
 	read -p 'Notes/Phone number: ' notes
-	echo -e "�$name - $notes" >> ./.phonebook
+	echo "$name - $notes" >> ./.phonebook
 	sort -o ./.phonebook ./.phonebook
-	echo -e "�\nAdded to METADATA STORER 3000."
+	echo -e "\nAdded to METADATA STORER 3000."
 
 elif [ "$userAction" = "s" ]; then
 	read -p 'Query: ' query
