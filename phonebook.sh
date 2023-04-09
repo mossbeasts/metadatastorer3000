@@ -1,4 +1,5 @@
-#!
+#!/usr/bin/env bash
+
 echo -e "==========\nWELCOME TO METADATA STORER 3000\or phonebook i guess\n=========="
 while true
 do
